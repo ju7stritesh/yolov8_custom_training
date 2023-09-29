@@ -1,0 +1,14 @@
+path: logo_datasets/
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 21
+names: ['Amazon-logo', 'Amazon-truck', 'Amazon-van', 'Amazon-word', 'Fedex-logo', 'Fedex-truck', 'Fedex-van', 'Fedex-word', 'Target-logo', 'Target-truck', 'Target-word', 'UPS-Van', 'UPS-logo', 'UPS-truck', 'UPS-van', 'USPS-logo', 'USPS-truck', 'USPS-van', 'logo', 'truck', 'van']
+
+roboflow:
+  workspace: capstoneproject
+  project: logoimages
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstoneproject/logoimages/dataset/1
